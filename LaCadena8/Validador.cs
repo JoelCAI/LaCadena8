@@ -8,7 +8,7 @@ namespace LaCadena8
 {
     public class Validador
     {
-        public static void CompararIgualdadString(string str1, string str2)
+        public static void CompararIgualdadStringSinImportarMayusculaMinuscula(string str1, string str2)
         {
             string nuevoUno = str1.ToUpper();
             string nuevoDos = str2.ToUpper();

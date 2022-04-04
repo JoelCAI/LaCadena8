@@ -25,7 +25,7 @@ namespace LaCadena8
             Validador.MostrarString(cadenaDos);
             Console.Write(" Como segunda frase\n");
 
-            Validador.CompararIgualdadString(cadenaUno, cadenaDos);
+            Validador.CompararIgualdadStringSinImportarMayusculaMinuscula(cadenaUno, cadenaDos);
 
             Validador.Despedida();
         }
